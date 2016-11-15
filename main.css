@@ -1,0 +1,109 @@
+
+                @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+            {
+               @import url('https://fonts.googleapis.com/css?family=Trirong'); 
+            }          
+
+            align-content: center;
+            width: auto;
+            max-width: 960px;
+            margin: @ auto;
+            }
+        .nav {
+            font-size: 1.1em;
+            line-height: 3em;
+            }
+        .nav > ul {
+            background-color: #F39C12;
+            color: #FFFFFF;
+            font-size: 1.1em;
+            list-style-type: none;
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: space-around;
+            line-height: 3em;
+            }
+        .nav li {
+        flex: 1;
+        }
+        a {
+            color:#FFFFFF;
+            text-decoration: none;
+        }
+        .nav a:link, nav a:visited {
+            color: black;
+            
+    
+}
+            body { 
+             font-family: , 'Trirong', serif;
+                }
+            #logo {
+                background-color: #45B39D; 
+                position: relative;
+                display: inline-block;
+            }
+            
+            h1, h2, h3, h4, h5, h6 {
+                color: #D35400;
+                font-family: "Amatic SC", cursive;
+                text-align: center:
+            }
+            
+            
+            
+            section {
+                padding: 25px;
+            }
+            
+            #top-row {
+                align-content: left;
+                margin-left: -50px;
+                border: none;
+                padding: 90px;
+                display: inline-block;
+            }
+              #banner {
+                height: 250px;
+                width: 85%;
+                margin-top: 10px;
+                margin-bottom: 15px; 
+                padding: 4px;
+            }
+            
+            #middle-row {
+                align-content: right;
+                margin-left: -50px;
+                border: none;
+                padding: 90px;
+            }
+            
+            #bottom-row{
+                align-content: center;
+                margin-right: 50px;
+                border: none;
+                padding: 4px;
+            }
+            
+            p{
+                line-height: 1.5;
+                color: white;
+            }
+            #top-row, #middle-row {
+                display: flex;
+                flex-flow: row wrap;
+            }
+            
+            .rightcol {
+            max-width: 100%;
+            width: 48%;
+            flex: 1 0 15em;
+            }
+            .leftcol {
+            max-width: 100%;
+            width: 48%;
+            flex: 1 0 15em;
+            }
+            
+            
+            
