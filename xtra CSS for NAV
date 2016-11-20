@@ -1,0 +1,41 @@
+NAVIGATION CSS -----
+
+.nav {
+                height: 60px;
+                font-size: 20px;
+                margin-top: -90px;
+                margin-bottom: 50px;
+                width: 100%;
+                
+                 }
+                
+            
+            .nav ul li {
+                list-style: none;
+            }
+            .nav ul {
+                list-style-type: none;
+                margin: auto;
+                padding: auto;
+                overflow: hidden;
+                flex-flow: row wrap;
+                 
+            }
+            
+            a:link,a:visited{
+                display: block;
+                color: #FFFFFF;
+                background-color: #D35400;
+                height: 60px;
+                width: 210px;
+                text-align: center;
+                padding: 6px;
+                text-transform: uppercase;
+                text-decoration: none;
+            }
+            a:hover,a:active{
+                background-color: #D35400;
+            }
+            .nav li {
+                float: left;
+            }
