@@ -24,9 +24,9 @@
             flex-flow: row wrap;
             justify-content: space-around;
             line-height: 3em;
-            width: 82.5%;
+            width: 74.5%;
             margin-top: -90px;
-            margin-left:;
+            margin-left: 6em;
 
             }
             
@@ -38,9 +38,7 @@
             text-decoration: none;
         }
         .nav a:link, nav a:visited {
-            color: black;
-            
-    
+            color: blue;
         }
         .nav a:hover {
         color: green;
