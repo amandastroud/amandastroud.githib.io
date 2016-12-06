@@ -58,7 +58,7 @@
                 color: #D35400;
                 font-family: "Amatic SC", cursive;
                 text-align: center;
-                font-size: 30px;
+                font-size: 40px;
             }
             
             
@@ -77,8 +77,8 @@
               #banner {
                 height: 250px;
                 width: 85%;
-                margin-top: -20px;
-                margin-bottom: 15px; 
+                margin-top: 25px;
+                margin-bottom: -15px; 
                 padding: 4px;
             }
             
@@ -98,13 +98,18 @@
             
             p{
                 line-height: 1.5;
+                text-align: center;
                 color: white;
+                font-size: 20px;
+                margin-right: 30px;
+                margin-left: 30px;
             }
             #top-row, #middle-row {
                 display: flex;
                 flex-flow: row wrap;
             }
             
+           
             .rightcol {
             max-width: 100%;
             width: 48%;
@@ -114,7 +119,16 @@
             max-width: 100%;
             width: 48%;
             flex: 1 0 15em;
+            float: left;
             }
             
-            
-            
+
+#middle-image {
+    width: 420px;
+    height:315px;
+    
+}
+
+#social-media-icons {
+    margin-top: 20px;
+}
