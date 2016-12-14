@@ -1,20 +1,20 @@
-
-                @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
-            {
-               @import url('https://fonts.googleapis.com/css?family=Trirong'); 
-            }          
-
+   
+        @import url('https://fonts.googleapis.com/css?family=Amatic+SC');
+        @import url('https://fonts.googleapis.com/css?family=Trirong'); 
+                    
+        .content {
             align-content: center;
             width: auto;
             max-width: 960px;
-            margin: @ auto;
-            
+            margin: auto;
             }
+            img { max-width: 100%;}
         .nav {
             font-size: 1.1em;
             line-height: 3em;
             margin-top: -90px;
             }
+
         .nav > ul {
             background-color: #F39C12;
             color: #FFFFFF;
@@ -30,71 +30,73 @@
 
             }
             
-        .nav li {
-        flex: 1;
-        }
-        a {
-            color:#FFFFFF;
-            text-decoration: none;
-        }
-        .nav a:link, nav a:visited {
-            color: blue;
-        }
-        .nav a:hover {
-        color: green;
-        }
-            body { 
-             font-family: , 'Trirong', serif;
+            .nav li {
+                flex: 1;
                 }
+            a {
+                color:#FFFFFF;
+                text-decoration: none;
+                }
+            .nav a:link, nav a:visited {
+                color: blue;
+                }
+            .nav a:hover {
+                color: green;
+                }
+
+
+            body { 
+                font-family: , 'Trirong', serif;
+                }
+
             #logo {
                 background-color: white; 
                 position: relative;
-                display: inline-block;
-                
-                
-            }
+                display: inline-block;   
+                }
             
             h1, h2, h3, h4, h5, h6 {
                 color: #D35400;
                 font-family: "Amatic SC", cursive;
                 text-align: center;
                 font-size: 40px;
-            }
+                }
             
             
             
             section {
                 padding: 25px;
-            }
+                }
             
             #top-row {
                 align-content: left;
-                margin-left: -50px;
+                margin-left: -100px;
                 border: none;
                 padding: 90px;
                 display: inline-block;
-            }
-              #banner {
+                }
+
+            #banner {
                 height: 250px;
-                width: 85%;
+                width: 90%;
                 margin-top: 25px;
                 margin-bottom: -15px; 
                 padding: 4px;
-            }
+                }
             
             #middle-row {
                 align-content: right;
                 margin-left: -50px;
                 border: none;
                 padding: 90px;
-            }
+                }
             
             #bottom-row{
                 align-content: center;
                 margin-right: 50px;
                 border: none;
                 padding: 4px;
-            }
+                }
             
             p{
                 line-height: 1.5;
@@ -103,32 +105,139 @@
                 font-size: 20px;
                 margin-right: 30px;
                 margin-left: 30px;
-            }
+                }
             #top-row, #middle-row {
                 display: flex;
                 flex-flow: row wrap;
-            }
-            
+                }
+            #bottom-row {
+                margin-bottom: 100px;
+                }
            
             .rightcol {
-            max-width: 100%;
-            width: 48%;
-            flex: 1 0 15em;
-            }
+                max-width: 100%;
+                width: 48%;
+                flex: 1 0 15em;
+                }
             .leftcol {
-            max-width: 100%;
-            width: 48%;
-            flex: 1 0 15em;
-            float: left;
-            }
+                max-width: 100%;
+                width: 48%;
+                flex: 1 0 15em;
+                float: left;
+                margin-top: -15px;
+                }
+
+            #comejointhefun {
+                margin-top: -15px;
+                }
+
+            #middle-image {
+                width: 420px;
+                height:315px;
+                margin-top: -10px;
+                margin-left: -20px;
+                }
+
+            #social-media-icons {
+                margin-top: 20px;
+                }
+
+            #salmon-river-1 {
+                margin-top: 15px;
+                margin-bottom: 50px;
+                }
+
+
+            #riverimage {
+                margin-top: 70px;
+                margin-left: -40px;
+                list-style:none; 
+                white-space: nowrap;
+                overflow:hidden;
+                }
+
+            #riverimage  li {  
+                display: inline;
+                }
+
+            .riverbanner {
+                height: 165px;
+                width: 215px;
+                }
             
+            #rivers-top-row {
+                align-content: left;
+                margin-left: -100px;
+                margin-top: -100px;
+                border: none;
+                padding: 90px;
+                display: inline-block;
+                display: flex;
+                flex-flow: row wrap;
+                margin-bottom: -50px;
+                }
 
-#middle-image {
-    width: 420px;
-    height:315px;
+            h4  {
+                margin-top: 
+                }
+ 
+            #rivers-middle-row {
+                align-content: right;
+                margin-left: -px;
+                border: none;
+                padding: 90px;
+                display: flex;
+                flex-flow: row wrap;
+                margin-top: -125px;
     
+                }
+ 
+            .left-image {
+                margin-top: 45px;
+                margin-bottom: 90px;
+                height: 250px;
+                width: 350px;
+                }
+#left-image {
+    height: 250px; 
+    width: 350px;
 }
 
-#social-media-icons {
-    margin-top: 20px;
+
+#grand-canyon-image {
+    height: 250px;
+    width: 90%;
+    margin-left: 50px;
+    margin-bottom: 100px;
 }
+
+body {
+    background-color: black;
+}
+#rates-top-image {
+    height: 400px;
+    width: 100%;
+    margin-top: 25px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+#rates-middle-image {
+    height: 450px;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
